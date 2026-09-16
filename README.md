@@ -32,6 +32,10 @@
 	* **Start time:** 3AM
 	* **Travel duration:** 6 hours (from 3AM to 9AM)
 
+# Using the input as follows:
+* Answer the question using only the document below.
+* Document: <your text here>
+* Question: <your question here>
 
 ***
 
