@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 README.md Template
 Overview:
 Call a openai model from a simple python code.
@@ -46,3 +47,95 @@ cd path/to/your/project_folder/src python3.11 main.py "hi"
 
 How it works
 .env │ │ GROQ_API_KEY │ GROQ_BASE_URL ↓ main.py │ │ load_dotenv() ↓ os.environ │ ↓ OpenAI Python SDK │ │ base_url = Groq ↓ Groq API
+=======
+
+# Updated
+### 📄 README.md Template
+* **Overview:** 
+  * Call a openai model from a simple python code.
+* **Prerequisites:**
+  * Ensure you have `Python 3 or Python 3.11` installed on your machine.
+  * Pre-req mentioned in the requirement.txt
+* **Installation & Setup:**
+  * Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+  * Navigate to the project directory: `cd your-repo-name`
+  * Install required dependencies: `[e.g., pip install -r requirements.txt OR npm install]`
+* **Environment Configuration:**
+  * Create a `.env` file in the root directory.
+  * Add the required environment variables:
+    * `API_KEY=your_api_key_here`
+    * `DATABASE_URL=your_database_url_here`
+* **How to Execute the Code:**
+  * Run the main script using the following command: python3.11 main.py "hi" ## Here "hi" is your argument
+  * NOTE: Pass your input in the first argument
+* **Expected Output / Usage:**
+  * Model will respond
+
+***
+
+
+# About the code structure
+##### 1. Folder structure
+my-ai-project/
+│
+├── .env
+├── .gitignore
+├── requirements.txt
+│
+└── src/
+    ├── __init__.py
+    └── main.py
+
+##### 2. .env
+MY_API_KEY=your_groq_api_key_here
+MY_BASE_URL=your_base_url
+
+##### 3. .gitignore
+.env
+.venv/
+__pycache__/
+*.pyc
+
+##### 4. requirements.txt
+openai
+python-dotenv
+
+##### 5 __init__.py
+from . import agent
+
+# To start
+##### 1. Create virtual env
+cd path/to/your/project_folder
+python3.11 -m venv .venv
+
+##### 2. source .venv/bin/activate
+
+##### 3. To Install the packages    
+	pip install -r requirements.txt
+
+##### 4. To execute (pass input as the first parameter)
+cd path/to/your/project_folder/src
+python3.11 main.py "hi"
+
+# How it works
+.env
+ │
+ │ GROQ_API_KEY
+ │ GROQ_BASE_URL
+ ↓
+main.py
+ │
+ │ load_dotenv()
+ ↓
+os.environ
+ │
+ ↓
+OpenAI Python SDK
+ │
+ │ base_url = Groq
+ ↓
+Groq API
+
+
+
+>>>>>>> 149363b (first commit-1)
