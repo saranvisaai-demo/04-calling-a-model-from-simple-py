@@ -13,11 +13,25 @@
   * Add the required environment variables:
     * `API_KEY=your_api_key_here`
     * `DATABASE_URL=your_database_url_here`
-* **How to Execute the Code:**
-  * Run the main script using the following command: python3.11 main.py "hi" ## Here "hi" is your argument
+* **1.- How to Execute the Code:**
+  * Run the main script using the following command: 
+  	> python3.11 main.py "hi" ## Here "hi" is your argument
   * NOTE: Pass your input in the first argument
-* **Expected Output / Usage:**
-  * Model will respond
+* **2.- How to Execute the Code:**
+  * Run the main script using the following command: 
+  	> python3.11 main.py "Answer the question using only the document below.
+
+Document: The local train starts at 3AM everyday, it reach the destination by 9AM on the same day.
+This is the daily routine and no gaps.
+
+Question: What time the train starts? and travel duration?"
+
+  * NOTE: Passing a document in the input and asking question from it
+* **Expected Output from the 2nd exeuction:**
+	Based on the document provided:
+	* **Start time:** 3AM
+	* **Travel duration:** 6 hours (from 3AM to 9AM)
+
 
 ***
 
