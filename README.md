@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 # Updated
 * **Overview:** 
   * Call a openai model from a simple python code.
@@ -87,3 +88,5 @@ Groq API
 
 
 
+=======
+>>>>>>> 2ae6b822d8a81728115d64c37ba4357f3da046bc
