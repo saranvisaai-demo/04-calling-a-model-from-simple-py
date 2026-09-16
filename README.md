@@ -1,6 +1,4 @@
 
-<<<<<<< HEAD
-# Updated
 * **Overview:** 
   * Call a openai model from a simple python code.
 * **Prerequisites:**
@@ -55,7 +53,7 @@ from . import agent
 
 # To start
 ##### 1. Create virtual env
-cd path/to/your/project_folder
+cd path/to/your/project_folder 
 python3.11 -m venv .venv
 
 ##### 2. source .venv/bin/activate
@@ -64,7 +62,7 @@ python3.11 -m venv .venv
 	pip install -r requirements.txt
 
 ##### 4. To execute (pass input as the first parameter)
-cd path/to/your/project_folder/src
+cd path/to/your/project_folder/src 
 python3.11 main.py "hi"
 
 # How it works
