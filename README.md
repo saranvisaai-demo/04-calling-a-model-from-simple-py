@@ -20,7 +20,6 @@
 * **2.- How to Execute the Code:**
   * Run the main script using the following command: 
   	> python3.11 main.py "Answer the question using only the document below.
-
 > Document: The local train starts at 3AM everyday, it reach the destination by 9AM on the same day.
 > This is the daily routine and no gaps.
 
@@ -37,7 +36,17 @@
 * Document: <your text here>
 * Question: <your question here>
 
+* **3.- How to Execute the Code:**
+  * Run the main script using the following command: 
+
+> python3.11 main.py "Answer the question using only the document below. If the answer is not in the document, say The document does not contain this information
+> Document: The local train starts at 3AM everyday, it reach the destination by 9AM on the same day.
+> This is the daily routine and no gaps.
+
+> Question: What is the starting location?"
+
 ***
+
 
 
 # About the code structure
