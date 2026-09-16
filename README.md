@@ -21,10 +21,10 @@
   * Run the main script using the following command: 
   	> python3.11 main.py "Answer the question using only the document below.
 
-Document: The local train starts at 3AM everyday, it reach the destination by 9AM on the same day.
-This is the daily routine and no gaps.
+> Document: The local train starts at 3AM everyday, it reach the destination by 9AM on the same day.
+> This is the daily routine and no gaps.
 
-Question: What time the train starts? and travel duration?"
+> Question: What time the train starts? and travel duration?"
 
   * NOTE: Passing a document in the input and asking question from it
 * **Expected Output from the 2nd exeuction:**
