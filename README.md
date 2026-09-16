@@ -62,8 +62,8 @@ python3.11 -m venv .venv
 	pip install -r requirements.txt
 
 ##### 4. To execute (pass input as the first parameter)
-cd path/to/your/project_folder/src 
-python3.11 main.py "hi"
+cd path/to/your/project_folder/src -->  
+python3.11 main.py "hi"*
 
 # How it works
 .env
